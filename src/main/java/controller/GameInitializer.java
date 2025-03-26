@@ -4,9 +4,9 @@ import view.GameFrame;
 
 import javax.swing.*;
 
-public class StartController {
+public class GameInitializer {
 
-    public static void main(String[] args) {
+    public void start() {
         SwingUtilities.invokeLater(() -> new GameFrame(15,40));
     }
 

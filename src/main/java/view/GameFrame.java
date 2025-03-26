@@ -17,7 +17,7 @@ public class GameFrame extends JFrame {
         Dimension screen = Toolkit.getDefaultToolkit().getScreenSize();
         setLocation((screen.width - size.width) / 2, (screen.height - size.height) / 2);
 
-        add(new SandboxPanel());
+        add(new MenuPanel());
 
         setVisible(true);
     }
